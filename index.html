@@ -4,35 +4,128 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Email verification</title>
-    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;0,900;1,200;1,800;1,900&display=swap");
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        background-color: #f0f4f5;
+        color: #000000;
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
   </head>
   <body>
     <main>
-      <div class="container">
-        <div class="form">
-          <div class="tag">
-            <h1 class="name-site">Yalla Tech <span>.com</span></h1>
+      <div>
+        <div
+          style="
+            width: 600px;
+            max-width: 600px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+          "
+        >
+          <div style="padding: 20px">
+            <h1
+              style="
+                position: relative;
+                font-size: 50px;
+                color: #8358c3;
+                font-weight: 900;
+              "
+            >
+              Yalla Tech
+              <span
+                style="
+                  position: absolute;
+                  font-size: 18px;
+                  top: 54px;
+                  right: 135px;
+                  color: #000000c4;
+                "
+                >.com</span
+              >
+            </h1>
           </div>
-          <div class="message">
-            <i class="fa-solid fa-message">
-              <div class="before"></div>
-              <div class="after"></div>
+          <div
+            style="
+              padding: 50px;
+              background-color: #8358c3;
+              width: 100%;
+              color: white;
+            "
+          >
+            <i
+              style="position: relative; font-size: 30px; margin-bottom: 15px"
+              class="fa-solid fa-message"
+            >
+              <div
+                style="
+                  position: absolute;
+                  left: -92px;
+                  top: 10px;
+                  width: 80px;
+                  height: 1px;
+                  background-color: white;
+                "
+              ></div>
+              <div
+                style="
+                  position: absolute;
+                  right: -92px;
+                  top: 10px;
+                  width: 80px;
+                  height: 1px;
+                  background-color: white;
+                "
+              ></div>
             </i>
-            <p>THANKS FOR Signing Up!</p>
+            <p style="margin-bottom: 15px; letter-spacing: 1px">
+              THANKS FOR Signing Up!
+            </p>
             <h2>Verify Your E-mail Address</h2>
           </div>
-          <div class="verfiy">
-            <p class="main-p">
+          <div style="padding: 30px 40px">
+            <p
+              style="
+                font-size: 20px;
+                line-height: 1.5;
+                margin-bottom: 25px;
+                color: #000000c4;
+              "
+            >
               Hi, You're almost ready to get started. Please click on the button
               below to verify your email address and enjoy exclusive cleaning
               services with us!
             </p>
-            <a href="#" class="btn">VERIFY YOUR EMAIL</a>
-            <p class="end">Thanks, The Company Team</p>
+            <a
+              href="#"
+              style="
+                text-decoration: none;
+                background-color: #8358c3;
+                color: white;
+                padding: 10px 15px;
+                border-radius: 10px;
+                transition: 0.3s;
+              "
+              >VERIFY YOUR EMAIL</a
+            >
+            <p style="margin-top: 35px; color: #000000c4">
+              Thanks, The Company Team
+            </p>
           </div>
         </div>
       </div>
